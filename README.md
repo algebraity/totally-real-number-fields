@@ -20,19 +20,19 @@ Checklist:
 
 ```bash
 # Basic computation
-sage -python compute_fields.py 4 10000000 -j 8
+python compute_fields.py 4 10000000 -j 4
 
 # Resume after crash (automatic)
-sage -python compute_fields.py 4 10000000 -j 8
+python compute_fields.py 4 10000000 -j 4
 
 # Start fresh, ignore checkpoint
-sage -python compute_fields.py 4 10000000 -j 8 --no-resume
+python compute_fields.py 4 10000000 -j 4 --no-resume
 
 # Skip expensive Galois computation
-sage -python compute_fields.py 5 100000000 -j 16 --no-galois
+python compute_fields.py 5 10000000 -j 4 --no-galois
 
 # All options
-sage -python compute_fields.py --help
+python compute_fields.py --help
 ```
 
 ## Querying Data
