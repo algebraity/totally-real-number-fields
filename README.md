@@ -1,4 +1,4 @@
-# Totally Real Number Fields
+# Pure Fields of Small Discriminant
 
 This project is a follow up to my [project on quadratic fields](https://github.com/algebraity/quadratic-field-analysis) where I did something similar. My goal is to compute the invariants all all pure, totally real fields with a minimal polynomial of degree p from 2 to some small prime, with discriminant less than some large number that is still computationally feasible.
 
