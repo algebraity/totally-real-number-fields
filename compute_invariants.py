@@ -33,6 +33,7 @@ def compute_field(K):
     galois_clsr = K.galois_closure('v')
 
     field_data = {}
+    field_data["field"] = str(K)
     field_data["min_poly"] = poly
     field_data["dk"] = dK
     field_data["hk"] = hK
